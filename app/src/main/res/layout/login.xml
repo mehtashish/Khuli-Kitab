@@ -29,7 +29,7 @@
         app:layout_constraintVertical_bias="0.225">
 
         <EditText
-            android:id="@+id/editTextText4"
+            android:id="@+id/EmailLogin"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginStart="32dp"
@@ -44,7 +44,7 @@
             android:textColorHint="#464646" />
 
         <EditText
-            android:id="@+id/editTextText2"
+            android:id="@+id/PasswordLogin"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginStart="32dp"
@@ -59,7 +59,7 @@
             android:textColorHint="#464646" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/LoginButton"
             style="@android:style/Widget.Button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -74,7 +74,7 @@
             tools:layout_marginTop="16dp" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/ForgotPassword"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:gravity="center"
